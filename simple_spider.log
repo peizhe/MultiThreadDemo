@@ -1,0 +1,457 @@
+INFO  [com.ztl.consumer.Consumer] - 消费者B,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   2 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   3 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_1
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者1,已加入生产!
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_2
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者1,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 消费者B,吃掉了一个包子，编号为新增生产者1_2
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,吃掉了一个包子，编号为生产者A_1
+INFO  [com.ztl.consumer.Consumer] - 消费者A,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 消费者A,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.consumer.Consumer] - 消费者A,没有拿到包子，将等待一次,当前连续等待计数为3
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   2 个
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_3
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了2个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了2个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了3个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了2个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_4
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者2,已加入生产!
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_5
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者2,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 消费者A,吃掉了一个包子，编号为新增生产者2_5
+INFO  [com.ztl.consumer.Consumer] - 消费者C,吃掉了一个包子，编号为新增生产者1_4
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,吃掉了一个包子，编号为生产者A_3
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,没有拿到包子，将等待一次,当前连续等待计数为3
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   3 个
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_6
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了5个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了5个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   5 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了6个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了5个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_7
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_8
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者3,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者3,已加入消费!
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_9
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,吃掉了一个包子，编号为新增生产者3_9
+INFO  [com.ztl.consumer.Consumer] - 消费者B,吃掉了一个包子，编号为新增生产者2_8
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,吃掉了一个包子，编号为新增生产者1_7
+INFO  [com.ztl.consumer.Consumer] - 消费者A,吃掉了一个包子，编号为生产者A_6
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,没有拿到包子，将等待一次,当前连续等待计数为3
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了9个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了9个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_10
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   6 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了10个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了9个
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_11
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_12
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_13
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者4,已加入生产!
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_14
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者4,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,吃掉了一个包子，编号为新增生产者4_14
+INFO  [com.ztl.consumer.Consumer] - 消费者C,吃掉了一个包子，编号为新增生产者3_13
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,吃掉了一个包子，编号为新增生产者2_12
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,吃掉了一个包子，编号为新增生产者1_11
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 消费者A,吃掉了一个包子，编号为生产者A_10
+INFO  [com.ztl.consumer.Consumer] - 消费者A,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,没有拿到包子，将等待一次,当前连续等待计数为3
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   5 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了14个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了14个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   5 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了14个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了14个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_15
+INFO  [com.ztl.producer.Producer] - 生产者A,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_16
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_17
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_18
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_19
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者5,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者5,已加入消费!
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_20
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,吃掉了一个包子，编号为新增生产者5_20
+INFO  [com.ztl.consumer.Consumer] - 消费者B,吃掉了一个包子，编号为新增生产者4_19
+INFO  [com.ztl.consumer.Consumer] - 消费者B,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,吃掉了一个包子，编号为新增生产者3_18
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,吃掉了一个包子，编号为新增生产者2_17
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,吃掉了一个包子，编号为新增生产者1_16
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 消费者C,吃掉了一个包子，编号为生产者A_15
+INFO  [com.ztl.consumer.Consumer] - 消费者C,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了20个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了20个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   3 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了20个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了20个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_21
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者6,已加入生产!
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_22
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者6,已加入消费!
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_23
+INFO  [com.ztl.producer.Producer] - 新增生产者6,生产了新增生产者6_24
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_25
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,吃掉了一个包子，编号为新增生产者3_25
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,吃掉了一个包子，编号为新增生产者6_24
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,吃掉了一个包子，编号为新增生产者4_23
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,吃掉了一个包子，编号为新增生产者2_22
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,吃掉了一个包子，编号为新增生产者5_21
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,没有拿到包子，将等待一次,当前连续等待计数为3
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了25个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了25个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了25个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了25个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_26
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_27
+INFO  [com.ztl.producer.Producer] - 新增生产者6,生产了新增生产者6_28
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者7,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者7,已加入消费!
+INFO  [com.ztl.producer.Producer] - 新增生产者7,生产了新增生产者7_29
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_30
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,吃掉了一个包子，编号为新增生产者3_30
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,吃掉了一个包子，编号为新增生产者7_29
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,吃掉了一个包子，编号为新增生产者6_28
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,吃掉了一个包子，编号为新增生产者4_27
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,吃掉了一个包子，编号为新增生产者5_26
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了30个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了30个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了30个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了30个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_31
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_32
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者8,已加入生产!
+INFO  [com.ztl.producer.Producer] - 新增生产者8,生产了新增生产者8_33
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者8,已加入消费!
+INFO  [com.ztl.producer.Producer] - 新增生产者6,生产了新增生产者6_34
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,吃掉了一个包子，编号为新增生产者6_34
+INFO  [com.ztl.producer.Producer] - 新增生产者7,生产了新增生产者7_35
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,吃掉了一个包子，编号为新增生产者7_35
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,吃掉了一个包子，编号为新增生产者8_33
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了33个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了2个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了33个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了2个
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 生产已达到最大数量,不再产生新的生产者!
+INFO  [com.ztl.producer.Producer] - 新增生产者8,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.producer.Producer] - 新增生产者6,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.producer.Producer] - 新增生产者5,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者9,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,吃掉了一个包子，编号为新增生产者5_32
+INFO  [com.ztl.producer.Producer] - 新增生产者7,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,吃掉了一个包子，编号为新增生产者4_31
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 生产已达到最大数量,不再产生新的生产者!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 已经没有包子了,不再新增消费者!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,没有拿到包子，将等待一次,当前连续等待计数为3
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 不会再新增生产者或消费者，该守护线退出!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,连续等待次数已达到3次，消费者生气而走!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 已没有存活的工作线程,守护线程即将结束,系统亦将结束!
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_1
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者1,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了1个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了1个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.consumer.Consumer] - 消费者B,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者1,已加入消费!
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_2
+INFO  [com.ztl.consumer.Consumer] - 消费者B,吃掉了一个包子，编号为新增生产者1_2
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,吃掉了一个包子，编号为生产者A_1
+INFO  [com.ztl.consumer.Consumer] - 消费者C,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 消费者C,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_3
+INFO  [com.ztl.consumer.Consumer] - 消费者C,吃掉了一个包子，编号为生产者A_3
+INFO  [com.ztl.consumer.Consumer] - 消费者A,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   3 个
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者2,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 已经没有包子了,不再新增消费者!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了3个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了3个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了3个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了3个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_4
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_5
+INFO  [com.ztl.consumer.Consumer] - 消费者A,吃掉了一个包子，编号为新增生产者2_5
+INFO  [com.ztl.consumer.Consumer] - 消费者C,吃掉了一个包子，编号为新增生产者1_4
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_6
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,吃掉了一个包子，编号为生产者A_6
+INFO  [com.ztl.consumer.Consumer] - 消费者B,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者3,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 已经没有包子了,不再新增消费者!
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_7
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_8
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_9
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了8个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了6个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了3个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了9个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了6个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了3个
+INFO  [com.ztl.consumer.Consumer] - 消费者B,吃掉了一个包子，编号为新增生产者1_9
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,吃掉了一个包子，编号为新增生产者2_8
+INFO  [com.ztl.consumer.Consumer] - 新增消费者1,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 消费者A,吃掉了一个包子，编号为新增生产者3_7
+INFO  [com.ztl.consumer.Consumer] - 消费者C,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 消费者C,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_10
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_11
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者4,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者2,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 消费者C,吃掉了一个包子，编号为新增生产者3_11
+INFO  [com.ztl.consumer.Consumer] - 消费者C,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 消费者B,吃掉了一个包子，编号为生产者A_10
+INFO  [com.ztl.consumer.Consumer] - 消费者B,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 消费者A,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_12
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_13
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_14
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   5 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了14个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了11个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了3个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   2 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了14个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了11个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了3个
+INFO  [com.ztl.consumer.Consumer] - 消费者A,吃掉了一个包子，编号为新增生产者1_14
+INFO  [com.ztl.consumer.Consumer] - 消费者A,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,吃掉了一个包子，编号为新增生产者2_13
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,吃掉了一个包子，编号为新增生产者4_12
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.producer.Producer] - 生产者A,生产了生产者A_15
+INFO  [com.ztl.producer.Producer] - 生产者A,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_16
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_17
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产了新增生产者1_18
+INFO  [com.ztl.producer.Producer] - 新增生产者1,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_19
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者5,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者3,已加入消费!
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_20
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,吃掉了一个包子，编号为新增生产者3_19
+INFO  [com.ztl.consumer.Consumer] - 新增消费者2,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,吃掉了一个包子，编号为新增生产者5_20
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了20个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了16个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了4个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了20个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了16个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了4个
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,吃掉了一个包子，编号为新增生产者1_18
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,吃掉了一个包子，编号为新增生产者2_17
+INFO  [com.ztl.consumer.Consumer] - 新增消费者3,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_21
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产了新增生产者2_22
+INFO  [com.ztl.producer.Producer] - 新增生产者2,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_23
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_24
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了24个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了18个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了6个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了24个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了18个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了6个
+INFO  [com.ztl.producer.Producer] - 新增生产者6,生产了新增生产者6_25
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者6,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者4,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,吃掉了一个包子，编号为新增生产者6_25
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,吃掉了一个包子，编号为新增生产者3_24
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,吃掉了一个包子，编号为新增生产者5_23
+INFO  [com.ztl.consumer.Consumer] - 新增消费者4,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_26
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_27
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产了新增生产者3_28
+INFO  [com.ztl.producer.Producer] - 新增生产者3,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者7,已加入生产!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者5,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,吃掉了一个包子，编号为新增生产者3_28
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了28个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了22个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了6个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了28个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了22个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了6个
+INFO  [com.ztl.producer.Producer] - 新增生产者6,生产了新增生产者6_29
+INFO  [com.ztl.producer.Producer] - 新增生产者7,生产了新增生产者7_30
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,吃掉了一个包子，编号为新增生产者7_30
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,吃掉了一个包子，编号为新增生产者6_29
+INFO  [com.ztl.consumer.Consumer] - 新增消费者5,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产了新增生产者4_31
+INFO  [com.ztl.producer.Producer] - 新增生产者4,生产达到最大值5个馒头，不再生产了!
+INFO  [com.ztl.producer.Producer] - 新增生产者5,生产了新增生产者5_32
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增生产者8,已加入生产!
+INFO  [com.ztl.producer.Producer] - 新增生产者8,生产了新增生产者8_33
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者6,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,吃掉了一个包子，编号为新增生产者8_33
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   4 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了33个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了25个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了8个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.producer.Producer] - 新增生产者6,生产了新增生产者6_34
+INFO  [com.ztl.producer.Producer] - 新增生产者7,生产了新增生产者7_35
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了33个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了25个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了10个
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,吃掉了一个包子，编号为新增生产者7_35
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,吃掉了一个包子，编号为新增生产者6_34
+INFO  [com.ztl.consumer.Consumer] - 新增消费者6,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.producer.Producer] - 新增生产者5,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 生产已达到最大数量,不再产生新的生产者!
+INFO  [com.ztl.producer.Producer] - 新增生产者8,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者7,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,吃掉了一个包子，编号为新增生产者5_32
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   2 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了28个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了7个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了28个
+INFO  [com.ztl.producer.Producer] - 新增生产者6,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.producer.Producer] - 新增生产者7,一天的生产已经完成,线程将退出!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了7个
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,吃掉了一个包子，编号为新增生产者4_31
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,吃掉了一个包子，编号为新增生产者5_27
+INFO  [com.ztl.consumer.Consumer] - 新增消费者7,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 生产已达到最大数量,不再产生新的生产者!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者8,已加入消费!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了31个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了4个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了31个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了4个
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,吃掉了一个包子，编号为新增生产者4_26
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,吃掉了一个包子，编号为新增生产者2_22
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,吃掉了一个包子，编号为新增生产者4_21
+INFO  [com.ztl.consumer.Consumer] - 新增消费者8,消费达到最大值3个馒头，吃饱了，不再吃了!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 生产已达到最大数量,不再产生新的生产者!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 新增消费者9,已加入消费!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,吃掉了一个包子，编号为新增生产者4_16
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了34个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了34个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了1个
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,吃掉了一个包子，编号为生产者A_15
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,没有拿到包子，将等待一次,当前连续等待计数为1
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,没有拿到包子，将等待一次,当前连续等待计数为2
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 生产已达到最大数量,不再产生新的生产者!
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,没有拿到包子，将等待一次,当前连续等待计数为3
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 已经没有包子了,不再新增消费者!
+INFO  [com.ztl.thread.daemon.DaemonThread4AddElement] - 不会再新增生产者或消费者，该守护线退出!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   1 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.consumer.Consumer] - 新增消费者9,连续等待次数已达到3次，消费者生气而走!
+INFO  [com.ztl.thread.daemon.DaemonThread] - 生产者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 消费者线程组,当前拥有的存活状态,线程数量为   0 个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，生产者共生产了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，消费者共消费了35个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 目前，剩余了0个
+INFO  [com.ztl.thread.daemon.DaemonThread] - 已没有存活的工作线程,守护线程即将结束,系统亦将结束!
